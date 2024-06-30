@@ -5,7 +5,7 @@ import { defaultSetting } from "../firebase/model";
 
 const stateStore = writable<ArduinoFrameContainer>({
   frames: [],
-  board: MicroControllerType.ARDUINO_UNO,
+  board: MicroControllerType.ARDUINO_NANO,
   error: false,
   settings: defaultSetting,
 });

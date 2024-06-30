@@ -22,7 +22,7 @@ void loop() {
 `;
 const codeStore = writable({
   code: resetCode,
-  boardType: MicroControllerType.ARDUINO_UNO,
+  boardType: MicroControllerType.ARDUINO_NANO,
 });
 
 export default {

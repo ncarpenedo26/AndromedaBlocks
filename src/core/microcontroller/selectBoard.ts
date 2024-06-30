@@ -4,9 +4,11 @@ import unoArduino from '../../microcontrollers/arduino_uno/profile';
 import { transformBoardBlockly } from './microcontroller.helpers';
 import { getBoardType } from '../blockly/helpers/get-board.helper';
 import arduinoMega from '../../microcontrollers/arduino_mega/profile';
+import arduinoNano from '../../microcontrollers/arduino_nano/profile';
+import nanoArduino from '../../microcontrollers/arduino_nano/profile';
 
 export const getBoard = (type: MicroControllerType) => {
-  return boardProfiles[type] || boardProfiles[MicroControllerType.ARDUINO_UNO];
+  return boardProfiles[type] || boardProfiles[MicroControllerType.ARDUINO_NANO];
 };
 
 export const selectBoardBlockly = (): MicroControllerBlocks => {
@@ -17,6 +19,7 @@ export const selectBoardBlockly = (): MicroControllerBlocks => {
 const boardProfiles = {
   uno: unoArduino,
   mega: arduinoMega,
+  nano: nanoArduino,
 };
 
 export enum ARDUINO_PINS {

@@ -16,7 +16,7 @@ try {
   settings = defaultSetting;
 }
 
-settings["boardType"] = settings.boardType || MicroControllerType.ARDUINO_UNO;
+settings["boardType"] = settings.boardType || MicroControllerType.ARDUINO_NANO;
 
 const settingsStore = writable<Settings>(settings);
 
