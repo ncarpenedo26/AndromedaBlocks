@@ -1,0 +1,20 @@
+For Demo:
+1. Get simple demo compiling
+2. Add Nano board option
+2. Set Nano as default
+3. Update motor block
+
+For Product
+1. Update UI (Menus, settings specifically)
+2. Remove simulator
+3. Add lessons window
+4. Host the site
+
+For ESP:
+1. Add ESP board option
+2. Integrate webserial esp flashing
+3. Create compilation server for esp
+
+Stretch:
+1. Custom PCB
+2. App?
