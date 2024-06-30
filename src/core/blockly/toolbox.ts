@@ -126,7 +126,7 @@ const defaultToolbox: ToolBoxEntries[] = [
       { name: "Pins", xml: writePinXMLString },
       // { name: "RBG Led", xml: rgbLedXMLString },
       { name: "Servos", xml: servoXMLString },
-      { name: "Stepper Motors", xml: stepperMotorXMLString },
+      // { name: "Stepper Motors", xml: stepperMotorXMLString },
     ],
   },
   {
@@ -140,9 +140,9 @@ const defaultToolbox: ToolBoxEntries[] = [
       { name: "IR Remote", xml: irRmoteXMLString },
       { name: "JoyStick", xml: joystickXMLString },
       { name: "Motion Sensor", xml: ultraSonicXMLString },
-      { name: "RFID", xml: rfidXMLString },
-      { name: "Temperature/Humidity", xml: temperatureXMLString },
-      { name: "Thermistor", xml: thermistorXMLString },
+      // { name: "RFID", xml: rfidXMLString },
+      // { name: "Temperature/Humidity", xml: temperatureXMLString },
+      // { name: "Thermistor", xml: thermistorXMLString },
     ],
   },
 ];
