@@ -80,6 +80,8 @@
       return;
     }
 
+    console.log("yes");
+
     if (arduinoStatus == PortState.OPEN) {
       arduinoStore.set(PortState.CLOSING);
       try {
