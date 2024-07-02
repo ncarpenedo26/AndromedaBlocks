@@ -1,19 +1,19 @@
 <script lang="ts">
   import VerticalComponentContainer from '../components/electroblocks/VerticalComponentContainer.svelte';
-  import Debug from '../components/electroblocks/arduino/Debug.svelte';
-  import Message from '../components/electroblocks/arduino/Message.svelte';
+  import Simulator from '../components/electroblocks/home/Simulator.svelte';
+  import Step from '../components/electroblocks/home/Steps.svelte';
 </script>
 
 <VerticalComponentContainer>
   <div class="slot-wrapper" slot="top">
-    <Message />
+    <Simulator />
   </div>
   <div class="slot-wrapper" slot="bottom">
-    <Debug />
+    <Step />
   </div>
 </VerticalComponentContainer>
 <svelte:head>
-  <title>ElectroBlocks - Arduino</title>
+  <title>ElectroBlocks</title>
 </svelte:head>
 
 <style>

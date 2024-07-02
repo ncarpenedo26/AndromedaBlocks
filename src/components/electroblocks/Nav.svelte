@@ -117,15 +117,15 @@
 <nav class:small={!$authStore.isLoggedIn}>
   {#if $authStore.isLoggedIn}
     <a href="/{params}" class:active={isPathOnHomePage($page.url.pathname)}>
-      <i class="fa fa-home" />
+      <i class="fa fa-microchip" />
     </a>
 
     <a href="/code{params}" class:active={$page.url.pathname.includes('code')}>
       <i class="fa fa-code" />
     </a>
-    <a href="/arduino{params}" class:active={$page.url.pathname.includes('arduino')}>
+    <!-- <a href="/arduino{params}" class:active={$page.url.pathname.includes('arduino')}>
       <i class="fa fa-microchip" />
-    </a>
+    </a> -->
 
     <a href="/open" class:active={segment === 'open'}>
       <i
@@ -152,15 +152,15 @@
 
   {#if !$authStore.isLoggedIn}
     <a href="/" class:active={isPathOnHomePage($page.url.pathname)}>
-      <i class="fa fa-home" />
+      <i class="fa fa fa-microchip" />
     </a>
 
     <a href="/code" class:active={$page.url.pathname.includes('code')}>
       <i class="fa fa-code" />
     </a>
-    <a href="/arduino" class:active={$page.url.pathname.includes('arduino')}>
+    <!-- <a href="/arduino" class:active={$page.url.pathname.includes('arduino')}>
       <i class="fa fa-microchip" />
-    </a>
+    </a> -->
 
     <label class:active={segment === 'open'}>
       <i
