@@ -30,8 +30,10 @@ const compileCode = async (code: string, type: string): Promise<string> => {
   const headers = new Headers();
   headers.append("Content-Type", "text/plain");
 
+  // TODO (Nick): Original line below; hardcoded to 'uno' because 'nano' doesn't exist on their compilation server.
+  // `${config.server_arduino_url}/upload-code/${type}`,
   const response = await fetch(
-    `${config.server_arduino_url}/upload-code/${type}`,
+    `${config.server_arduino_url}/upload-code/uno`,
     {
       method: "POST",
       body: code,
