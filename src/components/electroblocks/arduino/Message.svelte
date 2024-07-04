@@ -135,8 +135,9 @@
     }
     arduinoStore.set(PortState.UPLOADING);
     try {
+      console.log(boardType);
       const avrgirl = new AvrgirlArduino({
-        board: boardType,
+        board: 'uno',
         debug: true,
       });
 
