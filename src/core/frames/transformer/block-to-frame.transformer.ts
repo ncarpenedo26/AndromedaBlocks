@@ -72,7 +72,7 @@ import {
   messageSetup,
 } from "../../../blocks/message/blocktoframe";
 import { ultraSonicSensor } from "../../../blocks/ultrasonic_sensor/blocktoframe";
-import { moveMotor } from "../../../blocks/motors/blocktoframe";
+import { move_motor } from "../../../blocks/motors/blocktoframe";
 import { setVariable } from "../../../blocks/variables/blocktoframe";
 import { rfidSetup } from "../../../blocks/rfid/blocktoframe";
 import { servoRotate } from "../../../blocks/servo/blocktoframe";
@@ -159,7 +159,7 @@ const blockToFrameTransformerList: {
   led_matrix_setup: ledMatrixSetup,
 
   rotate_servo: servoRotate,
-  move_motor: moveMotor,
+  move_motor: move_motor,
 
   thermistor_setup: thermistorSetup,
 

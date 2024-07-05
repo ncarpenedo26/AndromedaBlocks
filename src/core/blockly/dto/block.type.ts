@@ -1,3 +1,4 @@
+import { move_motor } from "../../../blocks/motors/blocktoframe";
 import type { ARDUINO_PINS } from "../../microcontroller/selectBoard";
 
 export enum BlockType {
@@ -143,6 +144,7 @@ export const blocksThatRequireSetup = {
   joystick_button: "joystick_setup",
   joystick_angle: "joystick_setup",
   joystick_engaged: "joystick_setup",
+  // move_motor: "motor_setup",
 };
 
 /**

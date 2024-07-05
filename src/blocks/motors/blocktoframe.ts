@@ -12,7 +12,7 @@ import {
 import type { MotorState } from "./state";
 import type { MOTOR_DIRECTION } from "./state";
 
-export const moveMotor: BlockToFrameTransformer = (
+export const move_motor: BlockToFrameTransformer = (
   blocks,
   block,
   variables,

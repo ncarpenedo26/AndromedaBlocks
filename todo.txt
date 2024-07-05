@@ -3,6 +3,7 @@ For Demo:
 2. Add Nano board option (Done)
 3. Set Nano as default (Done)
 4. Update motor block
+5. Test with chromebook
 
 For Product
 1. Update UI (Menus, settings specifically)
